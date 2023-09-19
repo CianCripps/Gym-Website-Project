@@ -1,0 +1,748 @@
+:root{
+    font-size: 16px;
+    --base-bgcolor: gainsboro;
+    --main-bgcolor: white; 
+    --main-color: rgb(1, 198, 255)
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+td, th {
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+th,td {
+    text-align: center;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+    max-width: 100%;
+}
+
+main{
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+    font-family: 'Garamond', Times, serif, sans-serif;
+ 
+}
+
+
+
+.middle section{
+    background-color: var(--main-bgcolor);
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+
+    
+}
+
+
+
+header h1{
+    font-size: 2rem;
+    float: left ;
+    margin: 0 auto;
+    margin-right: 0;
+    padding: 10px 0 ;
+    color: black;
+    position: relative;
+    right: 0;
+    
+
+}
+
+.Desktop{
+    float: right;
+    
+}
+
+nav ul {
+   margin: 0;
+   list-style: none;
+
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 60px;
+    padding-top: 25px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: dimgrey;
+    text-transform: uppercase;
+}
+
+.header{
+    margin: 0 auto;
+    width: 80%; 
+    height: 60px;
+    
+}
+    
+
+
+
+header{
+    width: 100%;
+    background-color: var(--main-color);
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+:hover,nav{
+    color: black;
+}
+
+section{
+    scroll-margin-top: 6.5rem;
+}
+
+footer p{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.parallax{
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-image: url(../images/background2.jpg);
+    min-height: 800px;
+    padding: 0 auto;
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    pointer-events: none;
+    
+    
+}
+
+#parallax_text{
+    margin: auto;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+#parallax_text h2{
+    margin: auto;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 2rem;
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+
+#plans{
+    margin: auto;
+    width: 80%;
+    background-color: gainsboro;
+    
+}
+
+#plans p{
+    text-align: left;
+}
+main img{
+    
+    max-height: 100%;
+    
+    
+    object-fit: cover;
+}
+
+#bulk{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 25px;
+    
+    
+}
+
+#cut{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 25px;
+    
+}
+
+#sport{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 25px;
+}
+
+.middle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    row-gap: 2.5%;
+    margin: auto;
+    padding: 25px;
+    
+}
+
+.middle img{
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+section li{
+    margin: auto;
+}
+
+
+
+main a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    color:dimgray;
+}
+
+#About{
+    background-image: url(../images/about5.jpg);
+    width: 100%;
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid black;
+    
+}
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    line-height: 30px;
+    background-color: var(--main-color);
+    border-top: 1px solid black;
+}
+
+/* Inspiration from w3s Schools */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa-facebook {
+    background-color: #4267B2;
+    color: white;
+  }
+  .fa-twitter {
+    background-color: #1DA1F2;
+    color: white;
+  }
+  .fa-instagram{
+    background-color: #833AB4;
+    color: white;  
+  }
+  .fa-youtube{
+    background-color: #FF0000;
+    color: white;
+  }
+
+  input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical ;
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+#top{
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-image: url(../images/bulkplan.jpg);
+    min-height: 400px;
+    padding: 0 auto;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    pointer-events: none;
+    
+}
+
+#top h2{
+    margin: auto;
+    font-size: 3rem;
+    color: white; 
+}
+section{
+    
+    background-color: gainsboro;
+    margin: auto;
+    width: 80%;
+}
+
+.bottom div{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 80%;
+    
+    
+}
+
+.bottom img {
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+table{
+    margin: auto;
+    background-color: white;
+    width: 80%;
+    
+    
+}
+
+p{
+   text-align: center;
+}
+
+#top2{
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-image: url(../images/running4.jpg);
+    min-height: 400px;
+    padding: 0 auto;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    pointer-events: none;
+
+}
+#top2 h2{
+    margin: auto;
+    font-size: 3rem;
+    color: white; 
+}
+
+#top3{
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-image: url(../images/sports2.jpg);
+    min-height: 400px;
+    padding: 0 auto;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    pointer-events: none;
+
+}
+#top3 h2{
+    margin: auto;
+    font-size: 3rem;
+    color: white; 
+}
+#Testimonial{
+    text-align: center;
+    max-width: 100%;
+}
+
+#Testimonial h1{
+    
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.Test1{
+    display: flex;
+    
+    justify-content: center;
+    
+    
+}
+
+#image{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    
+    
+}
+
+#Words{
+    width: 100%;
+    display: flex;
+    flex-wrap:  wrap;
+    margin: auto;
+    
+    text-align: center;
+    justify-content: center;
+}
+
+.Test1 img{
+    max-width: 100%;
+    min-height: 400px;
+    
+    
+    border: 1px solid gainsboro;
+    border-radius: 1rem;
+}
+
+.All{
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-top: 1px solid black;
+    
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+    
+  }
+ 
+  input[type=submit] {
+    background-color: var(--main-color);
+    color: white;
+    display: flex;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    margin: auto;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .container {
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: gainsboro;
+    padding: 40px;
+  }
+
+  #top4{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-image: url(../images/background1.jpg);
+    min-height: 650px;
+    padding: 0 auto;
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    pointer-events: none;
+    
+  }
+
+   
+
+  #Contact{
+    text-align: center;
+    border-bottom: 1px solid black;
+    
+    
+}
+
+#Contact h1{
+    
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.nav{
+    display: none;
+}
+
+main{
+    max-width: 100%;
+}
+
+body{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 905px) {
+    #nav{
+        display: none;
+    }
+
+    
+    
+    .middle{
+        
+        display: inline-block;
+        justify-content: center;
+        
+        margin: auto;
+        padding: 25px;
+        text-align: center;
+        gap: 10px;
+        
+        
+    }
+    .middle img{
+        max-width: 100%;
+    }
+    
+
+    #bulk{
+        width: 80%;
+        border: 1px solid black;
+        border-radius: 1rem;
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+        padding: 15px;
+    }
+    
+    #cut{
+        width: 80%;
+        border: 1px solid black;
+        border-radius: 1rem;
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+        padding: 15px;
+    }
+    
+    #sport{
+        width: 80%;
+        border: 1px solid black;
+        border-radius: 1rem;
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .nav{
+        border-bottom: 1px solid black;
+        display: block;
+        
+    }
+
+    .checkbox_toggle{
+        position: absolute;
+        cursor: pointer;
+        margin: 0rem 1rem;
+        right: 0;
+    }
+
+    svg{
+        width: 1.5rem;
+        fill: black;
+        position: relative;
+        bottom: 3.1rem;
+    }
+
+    .menu{
+        
+        margin-top: 0.2rem;
+        margin: auto;
+    }
+
+    #nav_checkbox{
+        display: none;
+    }
+
+    .nav_menu{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .nav_menu li{
+        list-style: none;
+        display: none;
+    }
+
+   
+    
+
+    .nav_menu a{
+        position: relative;
+        right: 3rem;
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+    }
+
+    
+
+    #nav_checkbox:checked ~ ul.nav_menu li{
+        display: block;
+
+    } 
+
+    .parallax{
+        display: flex;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        background-image: url(../images/background2.jpg);
+        min-height: 800px;
+        padding: 0 auto;
+        margin: 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        pointer-events: none; 
+    }
+        
+    #Testimonial h1{
+            display: none;
+            
+    }
+        
+    
+    
+
+}
+
+
+@media screen and (max-width: 825px) {
+    .All{
+        display: block;
+        flex-wrap: row wrap;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        
+       
+        
+    }
+
+        #image{
+        display: block;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        object-fit: cover;
+        
+    }
+
+        #Words{
+        width: 100%;
+        justify-content: center;
+        display: block;
+        flex-wrap:  wrap;
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+        .Test1{
+        margin: auto;
+        display: block;
+        align-items: center;
+        justify-content: center;
+            
+            
+    }
+
+    img{
+        max-width: 100%;
+    }
+}
